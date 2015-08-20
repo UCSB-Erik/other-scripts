@@ -7,9 +7,9 @@ apt-get install
 #mount drive
 #this method is needed for drives attached during instance setup, they need to be formatted
 df -h
-mkfs -t ext4 /dev/xvdb
-mount /dev/xvdb /mnt
-chown -R ubuntu:ubuntu /mnt
+#mkfs -t ext4 /dev/xvdb
+#mount /dev/xvdb /mnt
+#chown -R ubuntu:ubuntu /mnt
 df -h
 
 #download data
